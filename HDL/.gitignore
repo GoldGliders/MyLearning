@@ -1,0 +1,15 @@
+/ALU
+/DFF
+.DS_store
+/test/alu.v
+/test/and.v
+/test/and_test.v
+/test/and_test.vcd
+/test/andtest
+/test/counter.v
+/test/dff.v
+/test/shiftreg.v
+/test/test
+/test/xor
+/test/xor2.v
+/test/.top.v
