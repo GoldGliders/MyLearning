@@ -11,10 +11,14 @@ I solved the problem seeing [this page](https://ughe.github.io/2018/11/06/gtkwav
 
 ## Compile
 ```
-iverilog -o [output file] -s [top module] [.v files]
+iverilog -g2012 -o [output file] -s [top module] [.v files]
 ```
+The option g specifies Verilog generation. `-g2012` specifies SystemVerilog.
 
 ## Generate VCD file
 ```
 vvp [compiled file]
 ```
+
+## View inner module's signal
+`$dumpvars(0, [module name]);`
